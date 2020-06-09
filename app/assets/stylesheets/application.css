@@ -1,15 +1,61 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+.top-title {
+	font-size: 25px;
+	margin: 25px;
+	font-weight: bold;
+}
+
+.top-description {
+	margin: 25px 50px;
+	font-size: 13px;
+}
+
+.top-start {
+	margin: 25px 50px;
+	font-size: 13px;
+}
+
+.index, .edit {
+	margin: 30px;
+}
+
+.index-title, .edit-title {
+	font-size: 26px;
+}
+
+thead, tbody,
+.form-title, .edit-button {
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+td {
+	padding: 5px;
+}
+
+table, .index-new {
+	margin-top: 10px;
+}
+
+.button {
+	margin-top: 10px;
+}
+
+.show-content {
+	margin: 40px 60px;
+	font-size: 13px;
+}
+
+.show-button {
+	margin: 30px;
+	font-size: 13px;
+}
