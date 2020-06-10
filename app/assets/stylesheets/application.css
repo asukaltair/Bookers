@@ -33,7 +33,8 @@ body {
 }
 
 thead, tbody,
-.form-title, .edit-button {
+.form-title, .error-form-title,
+.edit-button {
 	font-size: 13px;
 	margin-top: 10px;
 }
@@ -58,4 +59,48 @@ table, .index-new {
 .show-button {
 	margin: 30px;
 	font-size: 13px;
+}
+
+.flash-new {
+	margin: 40px 0 0 60px;
+	font-size: 13px;
+	color: green;
+}
+
+.flash-delete {
+	margin: 40px 40px;
+	font-size: 13px;
+	color: green;
+}
+
+.alert {
+	margin: 20px 0;
+	border: 2px solid red;
+	width: 500px;
+}
+
+label {
+	display: inline-block;
+}
+
+.error-title {
+	padding: 5px 15px;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	background-color: #cd0000;
+}
+
+.error-detail {
+	padding: 35px 80px;
+	font-size: 12px;
+	background-color: #f0f0f0;
+}
+
+.error-form-title {
+	background-color: red;
+}
+
+.error-form-body {
+	border: 2px solid red;
 }
